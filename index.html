@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=1440px, initial-scale=1.0" />
+    <meta name="viewport" content="width=100%, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="/CSS/stylesheet.css" />
     <title>Brandon Bruyns Resume</title>
   </head>
@@ -27,9 +27,18 @@
        <div class="item6">
           <h2><a href="#item6">item 6</a></h2>
        </div>
+       <div class="item7">
+        <h2><a href="#item7">item 7</a></h2>
+     </div>
+     <div class="item8">
+        <h2><a href="#item8">item 8</a></h2>
+     </div>
+     <div class="item9">
+        <h2><a href="#item9">item 9</a></h2>
+     </div>
     </div>
               <!-- banner/hero content -->
-    <div class="top-page">
+    <div class="top-page" id="item9">
       <div class="cover-img">
         <img
           src="/images/brandon-slack-profile-image-removebg-preview.png"
@@ -125,24 +134,43 @@
              <!-- bottom of webpage, footer -->
         <footer>
              <!-- parent container class "bottom-page" to separate forms and contact details -->
-            <div class="botton-page">
+            <div class="bottom-page">
              <!-- all the contact details and social media icons and hyperlinks -->
-                <div class="contact">
+                <div class="contact" id="item8">
                     <ul>
-                       <li><img src="">contact 1(facebook)</li>
-                      <li><img src="">contact 1(linkedin)</li>
-                      <li><img src="">contact 1(instagram)</li>
-                      <li><img src="">contact 1(discord)</li>
-                      <li><img src="">contact 1(watsapp)</li>
-                      <li><img src="">contact 1(email)</li>
+                      <li><img src="">contact 1(facebook)</li>
+                      <li><img src="">contact 2(linkedin)</li>
+                      <li><img src="">contact 3(instagram)</li>
+                      <li><img src="">contact 4(discord)</li>
+                      <li><img src="">contact 5(watsapp)</li>
+                      <li><img src="">contact 6(github)</li>
 
 
                     </ul>
                 </div>
-                <div class="forms">
+                <div class="forms" id="item7">
                   <!-- forms meant to be completed by the viewer of the website, (required fields are mandatory) -->
-                  @forms
+                    <form action="https://formsubmit.co/brandon.bruyns7@gmail.com" method="post">
+                      <h3>please fill in this form:</h3>
+                      <input type="text" id="name" name="user_name" placeholder="user_name" required>
+                      <input type="email" id="email" email="email_address" placeholder="email_adress" required >
+                      <h3>reason for submission (required):</h3>
+                        <select user="user_experience" placeholder="user_experience" required>
+                          <option value="great">great</option>
+                          <option value="decent">decent</option>
+                          <option value="fine">fine</option>
+                          <option value="bad">bad</option>
+                          <option value="terrible">terrible</option>
+                        </select>
+                      <h3 class="submit">please give us your user Experience (optional):</h3>
+                      <textarea name="user_message" id="msg" optional></textarea>              
+                      <input type="submit" value="submit"></input>
 
+                      <h3>or you can email me at :</h3>
+                      <ul>
+                      <li>Brandon.bruyns7@gmail.com</li>
+                    </ul>
+                    </form>
                 </div>
             </div>
 

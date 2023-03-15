@@ -5,14 +5,16 @@ h1 {
   color: #b4afaf;
 }
 h2 {
-    font-size: 32px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #0348b1;
+    margin: 15px 0px 15px 0px;
 }
 h3 {
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
   color: #b4afaf;
+  margin: 15px 5px 10px 5px;
 }
 h4 {
 }
@@ -27,12 +29,15 @@ li{
   position: fixed;
   top: 0px;
   width: 1440px;
-  grid-template-columns: 237px 237px 237px 237px 237px 237px;
-  justify-items: center;
+  grid-template-columns: 160px 160px 160px 160px 160px 160px 160px 160px 160px;
+  grid-template-rows: 69px;
+  justify-content: center;
+  text-align: center;
   background-color: rgb(252, 176, 245);
   opacity: 70%;
   z-index: 1;
 }
+/*============parent grid container============*/
 .top-page {
   position: relative;
   display: grid;
@@ -70,7 +75,7 @@ li{
 .content{
     margin: 60px 0px 1px 0px ;
     border: 5px 5px 5px 5px ;
-    padding: 1px 0px 5px 0px;
+    padding: 0px 0px 5px 0px;
     display: grid;
     grid-template-columns: 1100px 340px;
     text-align: left;
@@ -80,6 +85,7 @@ li{
     background-size: 1100px;
     height: 886px;
     text-indent: 5px;
+    margin: 0px 0px 0px 0px ;
     padding: 0px 0px 0px 15px;
 }
 .right-side h3{
@@ -93,3 +99,52 @@ li{
     padding: 5px 0px 0px 15px;
 }
 /*============footer/bottom of webpage, contact details, forms, links============*/
+footer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items:space-evenly;
+}
+.bottom-page{
+    margin: 0px 4.5px 0px 4.5px ;
+    background-image: url(/images/content-bg.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    width: 1440px;   
+}
+.contact li{
+    color:#0348b1;
+}
+/*============contact details with system icons arranged in a flex============*/
+.contact{
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 100px 200px 100px 200px;
+    margin: 2px 5px 5px 5px;
+    border-width: 2px 2px 2px 2px ;
+    border: 2px 2px 2px 2px ;
+    border-color: #0348b1;
+    border-style: solid;
+}
+
+.forms {
+    display: inline-flex;
+    position: relative;
+    margin: 1px 0px 5px 0px;
+    padding: 5px 238px 5px 5px;
+    border: 2px 2px 2px 2px;
+    border-width: 2px 2px 2px 2px ;
+    border-color: #0348b1;
+    border-style: solid;
+}
+.forms li{
+    color: #0348b1;
+}
+
+input {
+    background-color: #b4afaf;
+    color: #0348b1;
+}
