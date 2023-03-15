@@ -1,4 +1,20 @@
-/*============top of webpage, banner/hero============*/
+/*============top of webpage, banner/hero and navigation bar============*/
+.navbar{
+    display: grid;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    grid-template-columns: 237px 237px 237px 237px 237px 237px;
+    justify-items: center;
+    background-color: rgb(252, 176, 245);
+    opacity: 60%;
+    z-index: 1;
+}
 .top-page{
-    
+    position: relative;
+    top: 60px;
+    border: 1px 1px 1px 1px ;
+    padding: 10px 0px 10px 0px;
+    background-image: url(/images/banner.jpg);
+    background-size: 1440px ;
 }
