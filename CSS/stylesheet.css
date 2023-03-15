@@ -19,7 +19,7 @@ h4 {
 li{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #b4afaf;
+    color: #ffffff;
 }
 /*============top of webpage, banner/hero and navigation bar============*/
 .navbar {
@@ -77,7 +77,7 @@ li{
 }
 .left-side{
     background-image: url(/images/content-bg.jpg);
-    background-size: 1100px auto;
+    background-size: 1100px;
     height: 886px;
     text-indent: 5px;
     padding: 0px 0px 0px 15px;
@@ -87,6 +87,9 @@ li{
 }
 .right-side{
     background-image: url(/images/aside-bg.jpg) ;
-    background-size: 340px 632px;
-    height: 886px;
+    background-size: 340px;
+    height: 912px;
+    text-indent: 5px;
+    padding: 5px 0px 0px 15px;
 }
+/*============footer/bottom of webpage, contact details, forms, links============*/
