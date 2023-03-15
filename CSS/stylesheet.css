@@ -130,6 +130,7 @@ footer{
     border-style: solid;
 }
 
+/*============empty form to fill in by visitors of website. adjusts width, sizes and style of form box============*/
 .forms {
     display: inline-flex;
     position: relative;
@@ -143,7 +144,6 @@ footer{
 .forms li{
     color: #0348b1;
 }
-
 input {
     background-color: #b4afaf;
     color: #0348b1;
