@@ -12,9 +12,24 @@
 }
 .top-page{
     position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 600px 840px;
+    grid-template-rows: 343px 343px;
     top: 60px;
     border: 1px 1px 1px 1px ;
     padding: 10px 0px 10px 0px;
     background-image: url(/images/banner.jpg);
-    background-size: 1440px ;
+    background-size: 1440px 886px;
+}
+.cover-img{
+    position: inherit;
+    height: fit-content;
+    width: fit-content;
+    grid-row: 1/ span 2;
+    left: 100px;
+}
+.header{
+    position: inherit;
+    justify-content: center;
 }
