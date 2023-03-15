@@ -6,6 +6,10 @@ a digital resume to be used in the application to tech industry jobs. its featur
 of the webpage, a simple navigation bar, a few sections detailing relevent skills and abillities and 
 finally at the bottom a footer section featuring a form submission and contact links to my various platforms.
 
+## figma design brief/wireframe 
+https://www.figma.com/file/oBhVbuFDSKYnVt5Z7rc3QE/BRABRU026_FTC2301_GroupNaeem_BrandonBruyns_PF1-(Copy)?node-id=101%3A4&t=GUiRffIsiw9n5l8Q-1
+* set to public and should be viewable by all with the link.
+
 ## getting started
 
 ### dependencies
