@@ -15,6 +15,7 @@ https://www.figma.com/file/oBhVbuFDSKYnVt5Z7rc3QE/BRABRU026_FTC2301_GroupNaeem_B
 ### dependencies
 * ensure that you have a browser installed on your device (mobile, tablet, laptop or PC) that can load webpages
 * have the latest version of your operating system and browser installed to insure no errors occurs when loading the webpage.
+* ensure browser screen size is set to 90% zoom unless working on a 32'' or larger monitor or TV.
 
 ### executing program
 * find the index.html file in the folder and left click to open
@@ -23,6 +24,7 @@ https://www.figma.com/file/oBhVbuFDSKYnVt5Z7rc3QE/BRABRU026_FTC2301_GroupNaeem_B
 
 ## help
 * no known issues as of date publishing
+* browser keeps zooming in webpage
 
 ## authors
 * Brandon Bruyns
@@ -37,3 +39,4 @@ https://www.figma.com/file/oBhVbuFDSKYnVt5Z7rc3QE/BRABRU026_FTC2301_GroupNaeem_B
 this project is licensed under [BRABRU026_FTC2301_GroupNaeem_BrandonBruyns_PF1] license.
 
 ## acknowledgements
+* https://iconduck.com/ - websote used to get link icons
