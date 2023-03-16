@@ -1,6 +1,6 @@
 /*============<h> tags text adustjments============*/
 h1 {
-  font-size: 52px;
+  font-size: inherit;
   font-family:Arial, Helvetica, sans-serif ;
   color: #b4afaf;
 }
@@ -50,6 +50,7 @@ li{
   background-image: url(/images/banner.jpg);
   background-repeat: no-repeat;
   background-size: 1440px 886px;
+  width: 1440px;
   z-index: 0;
 }
 .cover-img {
@@ -147,4 +148,19 @@ footer{
 input {
     background-color: #b4afaf;
     color: #0348b1;
+}
+/*============animation keyframes used in webpage============*/
+@keyframes header{
+    0%{opacity: 100%; color: #000000;font-size: 65px;}
+    20%{opacity: 85%;color: #000000;font-size: 62px}
+    40%{opacity: 70%;color: #000000;font-size: 59px}
+    60%{opacity: 55%;color: #000000;font-size: 56px}
+    80%{opacity: 40%;color: #000000;font-size: 53px}
+    100%{opacity: 25%;color: #000000;font-size: 50px}
+}
+div .header {
+    animation-name: header;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
