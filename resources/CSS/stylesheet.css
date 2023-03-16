@@ -238,15 +238,92 @@ div .header {
 }
 /*===============media query for mobile 425px==============*/
 @media screen and (max-width: 425px){
+    h1 {
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif ;
+        color: #b4afaf;
+      }
+      h2 {
+          font-size: 8px;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #0348b1;
+          margin: 10px 0px 10px 0px;
+      }
+      h3 {
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b4afaf;
+        margin: 15px 5px 10px 5px;
+      }
+      h4 {
+      }
+      li{
+          font-size: 12px;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #ffffff;
+      }
        .navbar {
         display: grid;
         position: fixed;
-        bottom: 0px;
-        grid-template-columns: 47px 47px 47px 47px 47px 47px 47px 47px 47px;
-        grid-template-rows: 30px 30px 30px; 
-        width: 768px;
+        bottom: 60px;
+        grid-template-columns: 45px 45px 45px 45px 45px 45px 45px 45px 45px;
+        grid-template-rows: 30px; 
+        width: 425px;
+        height: 70px;
         opacity: 70%;
         z-index: 1;
        }
-
+       .top-page {
+        position: relative;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 425px;
+        grid-template-rows: 200px 100px 100x;
+        top: 70px;
+        padding: 10px 0px 0px 0px;
+        background-image: url(/resources/images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 425px 576px;
+        width: 425px;
+        z-index: 0;
+      }
+      .cover-img {
+        position: relative;
+        grid-row: 1;
+        top: -150px;
+        left: 0px;
+        z-index: 0;
+      }
+      .header {
+        grid-row: 2;
+        position: inherit;
+        justify-content: center;
+        top: -240px;
+        left: 40px;
+      }
+      .introduction {
+        grid-row: 3;
+        position: inherit;
+        bottom: 250px;
+        z-index: 0;
+      }
+      .content{
+      margin: 0px 0px 1px 0px ;
+      border: 5px 5px 5px 5px ;
+      padding: 0px 0px 5px px;
+      display: grid;
+      grid-template-columns: 425px;
+      grid-template-rows: 800px 540px;
+      text-align: left;
+    }
+      footer{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        flex-wrap: wrap;
+        align-items:space-evenly;
+        width: 425px;
+        left: 0px;
+        right: 0px;
+    }
 }
