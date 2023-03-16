@@ -5,7 +5,7 @@ h1 {
   color: #b4afaf;
 }
 h2 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #0348b1;
     margin: 15px 0px 15px 0px;
@@ -49,8 +49,8 @@ li{
   padding: 10px 0px 10px 0px;
   background-image: url(/resources/images/banner.jpg);
   background-repeat: no-repeat;
-  background-size: 1440px 886px;
-  width: 1440px;
+  background-size: 1424px 886px;
+  width: 1424px;
   z-index: 0;
 }
 .cover-img {
@@ -78,7 +78,7 @@ li{
     border: 5px 5px 5px 5px ;
     padding: 0px 0px 5px 0px;
     display: grid;
-    grid-template-columns: 1100px 340px;
+    grid-template-columns: 1100px 324px;
     text-align: left;
 }
 .left-side{
@@ -105,6 +105,9 @@ footer{
     flex-direction: column;
     position: absolute;
     align-items:space-evenly;
+    width: 1440px;
+    left: 0px;
+    right: 0px;
 }
 .bottom-page{
     margin: 0px 4.5px 0px 4.5px ;
