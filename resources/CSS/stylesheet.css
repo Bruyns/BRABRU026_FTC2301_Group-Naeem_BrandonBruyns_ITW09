@@ -59,6 +59,9 @@ li{
   width: fit-content;
   grid-row: 1 / span 2;
   left: 100px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10%;
   z-index: 0;
 }
 .header {
@@ -177,4 +180,73 @@ div .header {
     animation-duration: 1.3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+/*============media queries for tablet 768px and mobile L 425px============*/
+/*============media query for TABLET 768px============*/
+@media screen and (max-width: 800px){
+    /* top */
+      .navbar {
+        display: grid;
+        position: fixed;
+        top: 0px;
+        grid-template-columns: 85px 85px 85px 85px 85px 85px 85px 85px 85px;
+        grid-template-rows: 69px;
+        background-color: rgb(252, 176, 245);
+        width: 768px;
+        opacity: 70%;
+        z-index: 1;
+      } 
+      /* parent container */
+      .top-page {
+        position: relative;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 768px;
+        grid-template-rows: 280px 140px 140x;
+        top: 60px;
+        border: 1px 1px 1px 1px;
+        padding: 10px 0px 10px 0px;
+        background-image: url(/resources/images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 768px 886px;
+        width: 768px;
+        z-index: 0;
+      }
+      .cover-img {
+        position: inherit;
+        height: fit-content;
+        width: fit-content;
+        grid-row: 1 / span 2;
+        left: 100px;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 10%;
+        z-index: 0;
+      }
+      .header {
+        position: inherit;
+        justify-content: center;
+        top: 100px;
+        left: 40px;
+      }
+      .introduction {
+        position: inherit;
+        bottom: 80px;
+        z-index: 0;
+      }
+  /* content */
+}
+/*===============media query for mobile 425px==============*/
+@media screen and (max-width: 425px){
+       .navbar {
+        display: grid;
+        position: fixed;
+        bottom: 0px;
+        grid-template-columns: 47px 47px 47px 47px 47px 47px 47px 47px 47px;
+        grid-template-rows: 30px 30px 30px; 
+        width: 768px;
+        opacity: 70%;
+        z-index: 1;
+       }
+
 }
